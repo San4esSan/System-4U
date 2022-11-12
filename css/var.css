@@ -1,0 +1,14 @@
+:root {
+  --bg-normal: #CD06FF;
+  --bg-hover: #6C0287;
+  --bg-focus: #640AA3;
+  --form-normal: #6C0287;
+  --form-hover: #840AA3;
+  --form-acive: #640AA3;
+  --fag-bg: #440f51;
+  --fag-color: #1c1a1a;
+  --color-light: #FFFFFF;
+  --color-dark: #000000;
+  --social-hover: #EADEED;
+  --color-placeholder: #211E1E;
+}
