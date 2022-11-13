@@ -13,9 +13,8 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #1b1a1b;
-  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 
 img, svg {
@@ -25,9 +24,10 @@ img, svg {
 }
 
 button {
+  border: none;
   padding: 0;
+  background-color: transparent;
   cursor: pointer;
-  outline: none;
 }
 
 a {
@@ -79,7 +79,13 @@ iframe {
 */
 
 .container {
-  max-width: 1240px;
+  max-width: 1260px;
   padding: 0 30px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
 }
