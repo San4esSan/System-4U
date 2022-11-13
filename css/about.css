@@ -35,8 +35,8 @@
   display: block;
   width: 43px;
   height: 2px;
-  right: 75px;
-  top: 10px;
+  right: 82px;
+  top: 13px;
   border: 1px solid var(--color-text);
 }
 
@@ -46,8 +46,8 @@
   display: block;
   width: 43px;
   height: 2px;
-  left: 75px;
-  top: 10px;
+  left: 79px;
+  top: 13px;
   border: 1px solid var(--color-text);
 }
 
@@ -59,10 +59,12 @@
   line-height: 25px;
   text-align: center;
   color: var(--color-text);
-  margin-bottom: 50px;
+  margin-bottom: 59px;
 }
 
 .about__list {
+  max-width: 934px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -82,7 +84,7 @@
 .about__item:after {
   content: counter(count);
   position: absolute;
-  height: 122px;
+  height: 131px;
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -96,7 +98,7 @@
   height: 122px;
   background-color: #23C7EC;
   border-radius: 50%;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .benefits__text {
