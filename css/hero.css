@@ -27,8 +27,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1020px;
-  /*width: 100%;*/
+  max-width: 1020px;
+  width: 100%;
 }
 
 .hero__wrap {
@@ -37,6 +37,8 @@
   align-items: center;
   text-align: center;
   z-index: 2;
+  max-width: 960px;
+  width: 100%;
 }
 
 .hero__title {
@@ -82,10 +84,14 @@
     margin-bottom: 28px;
   }
 
+  .hero__wrap {
+    max-width: 770px;
+  }
+
   .hero__descr {
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 57px;
   }
 
   .btn {
@@ -110,19 +116,19 @@
   .hero {
     min-height: 441px;
     padding-bottom: 65px;
-    padding-top: 110px;
+    padding-top: 111px;
   }
 
   .hero__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .hero__descr {
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 54px;
+    margin-bottom: 12px;
   }
 
   .btn {

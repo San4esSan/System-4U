@@ -37,7 +37,7 @@
 
 @media (max-width: 1024px) {
   .footer {
-    padding: 49px 0;
+    padding: 38px 0 49px;
   }
 }
 
@@ -69,24 +69,13 @@
 }
 
 @media (max-width: 480px) {
-
-
   .footer__container {
     align-items: center;
   }
 
   .logo__text {
+    width: 90px;
     font-size: 8px;
     line-height: 11px;
   }
-
-  /*.footer__author {*/
-  /*  display: flex;*/
-  /*  justify-content: center;*/
-  /*  align-items: center;*/
-  /*  height: 47px;*/
-  /*  background: #2A2C3F;*/
-  /*  margin: 25px -15px 0;*/
-  /*  padding: 0 15px;*/
-  /*}*/
 }
